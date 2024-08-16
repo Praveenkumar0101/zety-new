@@ -1,0 +1,96 @@
+.carousel {
+  position: relative;
+  max-width: 900px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.carousel-inner {
+  display: flex;
+  flex-direction: column;
+}
+
+.carousel-item {
+  display: none;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.carousel-item.active {
+  display: block;
+}
+
+.testimonial-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.testimonial-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.profile-photo  {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-left: 60px;
+}
+.profile-photo img{
+  margin-left: 10px;
+}
+
+.testimonial-info {
+  flex-grow: 1;
+}
+
+.testimonial-info h3 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.testimonial-info h4 {
+  margin: 0;
+  font-size: 16px;
+  color: gray;
+}
+
+.linkedin-icon img {
+  margin-right: 100px;
+  width: 54px;
+  height: 54px;
+}
+
+.testimonial-text {
+  text-align: left;
+  font-size: 16px;
+  line-height: 1.5;
+  width: 90%; /* Decreases the width of the text area */
+  margin-top: 10px; /* Adds some space between the header and the text */
+  align-self: center; /* Centers the text horizontally */
+}
+
+.carousel-control {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5); /* Adds a slight background color */
+  color: white;
+  border: none;
+  font-size: 30px;
+  cursor: pointer;
+  padding: 10px;
+  z-index: 10; /* Ensure the controls are above other content */
+}
+
+.carousel-control.left {
+  left: 10px; /* Slightly inside the container */
+}
+
+.carousel-control.right {
+  right: 10px; /* Slightly inside the container */
+}
