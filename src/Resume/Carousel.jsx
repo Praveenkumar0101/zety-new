@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import "./Carousel.css"; // Create a CSS file to style the carousel
+import "./Carousel.css"; 
 
 const Carousel = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -49,13 +49,12 @@ const Carousel = () => {
     },
 
    
-    // Add more testimonials if needed
   ];
 
   useEffect(() => {
     const interval = setInterval(() => {
       nextSlide();
-    }, 3000); // Change slide every 3 seconds
+    }, 3000); 
 
     return () => clearInterval(interval);
   }, [currentIndex]);

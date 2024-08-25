@@ -6,11 +6,12 @@
 
 // import CompanyLinks from "./logos.jsx"
  
-// import Writtingresume from '../src/Resume/write-resume.jsx'
+import Writtingresume from '../src/Resume/write-resume.jsx'
 
-import Resumeformat from "../src/Resume/Resume-format.jsx"
-import Carousel from "./Resume/Carousel.jsx"
+// import Resumeformat from "../src/Resume/Resume-format.jsx"
+// import Carousel from "./Resume/Carousel.jsx"
 // import Sidebar from "../src/Resume/table.jsx"
+// import WrittingResume from "../src/Resume/Updated.jsx"
 function App() {
  
 
@@ -19,10 +20,11 @@ function App() {
       <div> 
        {/* <CompanyLinks/> */}
        {/* <Navbar/>  */}
-       {/* <Writtingresume/> */}
+       <Writtingresume/>
        {/* <Resumeformat/> */}
-       <Carousel/>
+       {/* <Carousel/> */}
        {/* <Sidebar/> */}
+       {/* <WrittingResume/> */}
       
       </div>
       
